@@ -19,18 +19,21 @@ void main() {
       }
     case 2:
       {
+        print("Lütfen 2 adet sayı giriniz");
         Cikarma(
             int.parse(stdin.readLineSync()!), int.parse(stdin.readLineSync()!));
         break;
       }
     case 3:
       {
+        print("Lütfen 2 adet sayı giriniz");
         Carpma(
             int.parse(stdin.readLineSync()!), int.parse(stdin.readLineSync()!));
         break;
       }
-    case 3:
+    case 4:
       {
+        print("Lütfen 2 adet sayı giriniz");
         Bolme(
             int.parse(stdin.readLineSync()!), int.parse(stdin.readLineSync()!));
         break;
